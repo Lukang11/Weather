@@ -1,0 +1,65 @@
+.App {
+  height: 100%;
+  width: 100%;
+  background-color: #393646;
+}
+.weather-box {
+  background-color: #ffffff;
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+input {
+  width: 300px;
+  height: 30px;
+  margin-top: 30px;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #585858;
+}
+button {
+  width: 300px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.search {
+  text-align: center;
+}
+.search-btn {
+  position: absolute;
+  text-align: center;
+  bottom: 5%;
+  left: calc(50% - 150px);
+}
+.weather-data {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 10px;
+}
+.icon > img {
+  height: 100px;
+  width: 100px;
+}
+form {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.weather-data > * {
+  margin: 5px 0 5px 0;
+}
+.search-btn > button {
+  background-color: #f4eee0;
+  border-radius: 5px;
+  border-color: #4f4557;
+  font-size: 16px;
+}

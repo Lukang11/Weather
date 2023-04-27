@@ -1,0 +1,13 @@
+code {
+}
+.html,
+body {
+  height: 100vh !important;
+}
+body {
+  margin: 0;
+}
+#root {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
